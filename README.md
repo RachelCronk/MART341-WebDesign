@@ -1,2 +1,2 @@
-# MART341-WebDesign
+# Rachel Cronk MART341-WebDesign
 Repository for my Intro to Web Design homework,
