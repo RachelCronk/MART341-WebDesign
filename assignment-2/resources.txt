@@ -1,0 +1,6 @@
+1. What is a directory, and what is its relationship to files?
+**A directory can be thought of as a tree, with branches that lead to their own subjects or pages. It can also be thought of as like so: A directory holds everything, like a suitcase. It holds files and images. It is a series of folders and subfolders, described in a parent-child relationship.**
+2. How are VCS useful?
+**VCS allows team members to work on any file at any time. It saves all variants of past versions as well. You can access any version of the file, and revert to them as you wish, and can see what was changed between versions. It also acts as a backup.**
+3. Do you have a favorite artistic medium? Why is it your favorite?
+**Painting is definitely my favourite medium, traditionally and digitally. I usually digitally paint myself, and find photoshop to be my preferred painting tool. I like the ability to revert back if painting something didn't strike your fancy; a few undos can do the trick. I also like the multitude of brushes you can download and create. I have a giant brushpack with some custom brushes that I like to use.**
