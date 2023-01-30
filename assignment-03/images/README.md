@@ -24,4 +24,4 @@ Sampled text. Sampled text. Sampled text. Sampled text. Sampled text. Sampled te
 [Link](./responses.txt)
 
 **3.**Link to your screenshot with a relative URL.
-[Link](./screenshot.jpg)
+[Link](./images/screenshot.jpg)
