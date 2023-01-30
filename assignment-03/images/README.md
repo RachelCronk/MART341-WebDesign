@@ -23,5 +23,5 @@ Sampled text. Sampled text. Sampled text. Sampled text. Sampled text. Sampled te
 **2.** Link to your responses.txt file with a relative URL.
 [Link](../images/responses.txt)
 
-**3.**Link to your screenshot with a relative URL.
+**3.** Link to your screenshot with a relative URL.
 [Link](../images/screenshot.jpg)
