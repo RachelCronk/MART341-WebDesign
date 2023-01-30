@@ -1,1 +1,8 @@
-1. This is sample text.
+1. What is the relationship between an IP address and the DNS?
+Your IP address is your internet protocol address, and DNS is Domain Name System. The DNS retrieves domain names and transcribes it to IP adresses, which allows for information packets to be broken down and sent.
+
+2. What is a cookie?
+A cookie is a little piece of information that a site saves so it can easily recall who you are.
+
+3. What are the three essentials parts of a URL?
+HTTP is the hypertext transfer protocol, the domain is the title of the website, ie., tumblr.com, and paths are basically a set of rules describing how to navigate down through the directories.
