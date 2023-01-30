@@ -9,7 +9,7 @@ Sampled text. Sampled text. Sampled text. Sampled text. Sampled text. Sampled te
 [Click here!](https://forgottenrealms.fandom.com/wiki/Main_Page)
 [My File](./responses.txt)
 
-![screenshot](./images/screenshot.jpg)
+![screenshot](./screenshot.jpg)
 
 **1.** Tell me three things you have learned in this class so far.
     I have learned how to bold text (**text**), how to create Headers
@@ -21,7 +21,7 @@ Sampled text. Sampled text. Sampled text. Sampled text. Sampled text. Sampled te
 
 
 **2.** Link to your responses.txt file with a relative URL.
-[Link](./responses.txt)
+[Link](../images/responses.txt)
 
 **3.**Link to your screenshot with a relative URL.
-[Link](./images/screenshot.jpg)
+[Link](../images/screenshot.jpg)
