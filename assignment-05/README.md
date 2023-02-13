@@ -1,0 +1,3 @@
+<i>[Link](./images/screenshot.jpg)</i>
+
+I once visited Archive of Our Own in the wayback machine -- it was super plain! It was from the year 2008, and was much more of a bare-bones site. There was no aesthetic design to it, and it read very much like a text document, super plain and with regular little links lined up one after another. The current version uses a colour scheme of offwhite and red, and is much more user-friendly in that it is more organized with sections about Favourite genres, a log of site development, and a twitter-feed module. It is much more intuitive in helping navigate to what you would like to read.
