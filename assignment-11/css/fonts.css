@@ -1,0 +1,25 @@
+@font-face {
+    font-family: '4990810';
+    src: url('../fonts/4990810_.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dustismo Roman';
+    src: url('../fonts/dustismo_roman.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '3rd Man';
+    src: url('../fonts/3rd Man.otf') format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'BebasKai';
+    src: url('../fonts/BebasKai.otf') format('opentype');
+    font-weight: normal;
+}

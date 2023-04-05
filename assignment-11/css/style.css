@@ -1,0 +1,112 @@
+.header {
+    
+    width: 100%;
+    display: block;
+    background-image: url("../images/autumn-hunter-3.jpg");
+    background-size: cover;
+    padding: 5px;
+}
+
+h1{
+    font-family: '4990810';
+    text-align: center;
+    color: rgb(29, 69, 82)
+    font-size: 100px;
+    letter-spacing: 0.3em;
+}
+
+.title {
+    font-family: '4990810';
+    color:rgb(29, 69, 82);
+}
+
+#title:hover {
+    letter-spacing: 1em;
+    color: rgb(78, 0, 0)
+}
+
+h2 {
+    font-family: 'Helvetica';
+    color: rgb(18, 16, 20);
+    font-size: 15px;
+}
+
+.titleBorder{
+    height: 90px;
+    background-color: rgb(189, 125, 89);
+    color: rgb(107, 129, 161);
+
+}
+
+
+.titleBorder:hover{
+    background-color: rgb(99, 41, 41);
+    color:rgb(90, 60, 60);
+    text-indent: 98em;
+
+}
+
+.subtitle{
+    font-family: '4990810';
+    padding-top: 50px;
+    font-size: 25px;
+    margin: auto;
+}
+
+.contentparagraph {
+    text-align: center;
+    font-family: '3rd man';
+    margin: auto;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.excerpt {
+    font-family: 'dustismo roman';
+    text-align: justify;
+    font-style: normal;
+    margin: 18pts;
+    font-size: 16pt;
+    color: #3c3952;
+}
+
+.excerpt:first-line {
+    font-family: 'BebasKai';
+    font-size: 30px;
+    font-style: bold;
+    color:rgb(180, 0, 0);
+}
+
+.excerpt:hover {
+    font-family: 'dustismo roman';
+    font-size: 24px;
+    font-style: italic;
+}
+
+.linkblock {
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    display: block;
+}
+
+a:link {
+    text-align: center;
+    text-decoration: none;
+    font-size: 20pt;
+    font-family: '3rd man';
+    color: rgb(190, 0, 0);
+}
+
+a:hover{
+    opacity: 50%;
+    color: rgb(5, 5, 2);
+    font-family: '4990810';
+    font-size: 25pt;
+    text-decoration: underline;
+}
+
+a:visited{
+    text-decoration: none;
+    color:rgb(124, 0, 0);
+}
