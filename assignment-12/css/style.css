@@ -1,0 +1,213 @@
+.header001 {
+    
+    width: 100%;
+    display: block;
+    background-image: url("../images/autumn-hunter-3.jpg");
+    background-size: cover;
+    padding: 5px;
+    margin-top: 4em;
+
+}
+
+h1{
+    font-family: '4990810';
+    text-align: center;
+    color: rgb(29, 69, 82)
+    font-size: 100px;
+    letter-spacing: 0.3em;
+}
+
+.title {
+    font-family: '4990810';
+    color:rgb(29, 69, 82);
+}
+
+#title:hover {
+    letter-spacing: 1em;
+    color: rgb(78, 0, 0)
+}
+
+h2 {
+    font-family: 'Helvetica';
+    color: rgb(18, 16, 20);
+    font-size: 15px;
+}
+
+.titleBorder{
+    height: 90px;
+    background-color: rgb(189, 125, 89);
+    color: rgb(107, 129, 161);
+
+}
+
+
+.titleBorder:hover{
+    background-color: rgb(99, 41, 41);
+    color:rgb(90, 60, 60);
+    text-indent: 98em;
+
+}
+
+.subtitle{
+    font-family: '4990810';
+    padding-top: 50px;
+    font-size: 25px;
+    margin: auto;
+}
+
+.contentparagraph {
+    text-align: center;
+    font-family: '3rd man';
+    margin: auto;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.excerpt {
+    font-family: 'dustismo roman';
+    text-align: justify;
+    font-style: normal;
+    margin: 18pts;
+    font-size: 16pt;
+    color: #3c3952;
+}
+
+.excerpt:first-line {
+    font-family: 'BebasKai';
+    font-size: 30px;
+    font-style: bold;
+    color:rgb(180, 0, 0);
+}
+
+.excerpt:hover {
+    font-family: 'dustismo roman';
+    font-size: 24px;
+    font-style: italic;
+}
+
+.linkblock {
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    display: block;
+}
+
+a:link {
+    text-align: center;
+    text-decoration: none;
+    font-size: 20pt;
+    font-family: '3rd man';
+    color: rgb(190, 0, 0);
+}
+
+a:hover{
+    opacity: 50%;
+    color: rgb(5, 5, 2);
+    font-family: '4990810';
+    font-size: 25pt;
+    text-decoration: underline;
+}
+
+a:visited{
+    text-decoration: none;
+    color:rgb(124, 0, 0);
+}
+
+.loremipsum {
+    margin: auto;
+    padding: 20px;
+    content: 55%;
+    text-align: justify;
+}
+
+/* Menu Styling */
+
+header {
+    position: fixed;
+    background-color:rgb(189, 125, 89);
+    width: 99%;
+    height: 4em;
+    top: 0px;
+    text-align: right;
+}
+
+/* Set the layout of the menu */
+
+.menu-item {
+    display: inline-block;
+    margin: 1em .2em;
+    background-color: rgb(87, 74, 74);
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    min-width: 6em;
+    text-align: center;
+}
+
+menu-item:hover {
+ background-color: rgb(87, 55, 55);
+ color: rgb(37, 25, 25);
+}
+
+/* styling links */
+.menu-item a {
+    color:black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* dropdown */
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin: 0.5em 0 0 -1em;
+    color: #000;
+    background-color: #5c4b4b;
+    z-index: 1;
+    border-radius: 0em 0em 1em 1em;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-item {
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 0.5em 1em 0.5em 1em;
+    min-width: 5em;
+}
+
+dropdown-item:hover, .dropdown-item:hover a {
+    color: white;
+    background-color: rgb(236, 0, 0);
+
+}
+
+/*Nav Title */
+.site-name {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#Charbio:hover {
+    border-radius 0em 0em 1em 1em;
+}
+
+.dropdown:hover {
+    border-radius: 1em 1em 0em 0em;
+}
+
+.site-name {
+    color:rgb(78, 0, 0);
+    float: left;
+    min-width: 6em;
+    padding: 0.5 1em;
+    letter-spacing: 0.3em;
+    font-weight: bold;
+    margin: 1em 1em 1em 1em;
+}
