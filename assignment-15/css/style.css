@@ -1,0 +1,202 @@
+/* Container Stylings */
+
+* {
+    box-sizing: border-box;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    border: 3px solid;
+    border-color: bisque;
+    margin: 3px;
+    overflow: overlay;
+    width: auto;
+    border-radius: 10%;
+}
+
+
+.row::after {
+        content: "";
+        clear: both;
+        display: table;
+}
+
+@media only screen and (min-width: 768px) {
+    /* for desktop */
+    .col-1 {width:10%}
+    .col-2 {width: 30%}
+    .col-3 {width: 45%}
+    .col-4 {width: 45%}
+
+    div > img {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* for mobile phones */
+    [class*="col-"] {
+        width: 100%;
+    }
+    div> img {
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 24px;
+    }
+
+    .menu-item {
+        text-align: center;
+        font-size: 22px;
+    }
+}
+
+img {
+    border-radius: 65%;
+    opacity: 100%;
+    transition: 200ms ease-in-out;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+    
+}
+
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+  .container:hover .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+  
+  .text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+/* image Hover effect */
+img:hover {
+    opacity: 45%;
+    transition: 200ms ease-in-out;
+    filter: blur(0.5px);
+}
+
+body {
+    background-image: white;
+    font-family: 'Bartolomew Printed'';
+}
+
+/* Dropdown Menu */
+.display-block {
+    display: block;
+
+}
+
+.menu-item {
+    font-size: 22px;
+    font-family: 'The Crow Grunge';
+    text-align: center;
+}
+
+.menu-item:hover {
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+.header001 {
+    
+    width: 100%;
+    height: 200px;
+    display: block;
+    background-image: url("../images/Paper-1.jpg");
+    background-size: cover;
+    padding: 5px;
+    margin-top: 0em;
+}
+
+.header001:hover {
+    opacity: 95%;
+    
+}
+
+/* unvisited link */
+a:link {
+    color: rgb(228, 167, 97);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(139, 84, 0);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #ce952c;
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(143, 143, 143);
+  }
+
+h1 {
+    font-size: 60pt;
+    font-family: 'The Crow Regular';
+    color: #000000;
+    text-align: center;
+}
+
+h2 {
+    font-size: 35pt;
+    font-family: 'Burford Rustic Inline';
+    text-align: center;
+    color: rgb(255, 189, 9);
+}
+
+h3 {
+    font-size: 45pt;
+    font-family: 'The Crow Inline';
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.storytext001 {
+    display: block;
+    margin: 10px;
+    padding: 15px;
+    border: 3px;
+    border-radius: 45%;
+    font-size: 35px;
+}
+
+.storytextcontent {
+    display: block;
+    margin: 10px;
+    padding: 15px;
+    font-size: 29px;
+}
+
